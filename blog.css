@@ -1,0 +1,48 @@
+.home-page-banner {
+    background-image: url("./pic/banner.png");
+    background-position-y: 70%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+
+.home-playlist{
+    height: 360px;
+}
+
+.footer{
+    min-height: 150px;
+}
+.circle{
+    border-radius: 50%;
+}
+
+@media (min-width: 576px){
+    .home-playlist{
+        height: 182px;
+    }
+}
+
+@media (min-width: 768px){
+    .home-playlist{
+        height: 248px;
+    }
+}
+
+@media (min-width: 992px){
+    .home-playlist{
+        height: 338px;
+    }
+}
+
+@media (min-width: 1200px){
+    .home-playlist{
+        height: 408px;
+    }
+}
+
+@media (min-width: 1400px){
+    .home-playlist{
+        height: 474px;
+    }
+}
